@@ -88,17 +88,27 @@ Here is an example of code in a blockquote:
 >     2+2
 >     mean(c(1,2,3,4,5))
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-```{r pressure2, fig.width=5, fig.height=5, echo=FALSE}
-plot(pressure)
-```
+![](Module2_rmd_files/figure-latex/pressure-1.pdf)<!-- --> 
+![](Module2_rmd_files/figure-latex/pressure2-1.pdf)<!-- --> 
 ## Insert Tables
-```{r}
+
+``` r
 knitr::kable(head(cars), 
              caption = "Top 6 rows of cars of Dataset")
 ```
+
+
+
+Table: Top 6 rows of cars of Dataset
+
+| speed| dist|
+|-----:|----:|
+|     4|    2|
+|     4|   10|
+|     7|    4|
+|     7|   22|
+|     8|   16|
+|     9|   10|
 ## Insert an equation
 
 $$ Y = \beta_0 + \beta_1x $$
