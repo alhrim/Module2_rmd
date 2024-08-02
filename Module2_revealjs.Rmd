@@ -4,7 +4,8 @@ author: "David Hernandez"
 date: "02/08/2024"
 output: 
   revealjs::revealjs_presentation:
-    transition: zoom
+    transition: default
+    background_transition: fade
     theme: solarized
     highlight: kate
     center: true
