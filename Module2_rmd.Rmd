@@ -3,9 +3,9 @@ Title: Modulo 2_Rmd
 Author: David Hernández Mejía
 Output: HTML
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 # This is a level 1 header
@@ -129,3 +129,11 @@ Here is an inline footnote ^[Inlines notes are easier to write, since you don't 
 
 [^1]: Here is the footnote.
 [^longnote]: Here's one with multiple blocks
+
+## A slide with an inserted image
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+
