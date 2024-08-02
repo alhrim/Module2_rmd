@@ -83,3 +83,18 @@ Here is an example of code in a blockquote:
 
 >     2+2
 >     mean(c(1,2,3,4,5))
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+```{r pressure2, fig.width=5, fig.height=5, echo=FALSE}
+plot(pressure)
+```
+## Insert Tables
+```{r}
+knitr::kable(head(cars), 
+             caption = "Top 6 rows of cars of Dataset")
+```
+## Insert an equation
+
+$$ Y = \beta_0 + \beta_1x $$
